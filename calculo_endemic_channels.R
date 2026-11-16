@@ -9,7 +9,7 @@ library(Hmisc)
 library(geobr)
 require(geofacet)
 
-path = "https://gitlab.fiocruz.br/marcelo.gomes/infogripe/-/raw/master/Dados/InfoGripe/casos_semanais_fx_etaria_virus_sem_filtro_febre.csv"
+path = "https://raw.githubusercontent.com/infogripe/Boletim_InfoGripe/main/Dados/InfoGripe/casos_semanais_fx_etaria_virus_sem_filtro_febre.csv"
 dados <- vroom(file = path)
 
 
